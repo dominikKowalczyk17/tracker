@@ -26,7 +26,8 @@
           "buildDepsName": "build-deps",
           "watchDepsName": "watch-deps"
         }
-      }
+      },
+      "exclude": ["libs/shared/tailwind-preset/*"]
     },
     {
       "plugin": "@nx/eslint/plugin",
@@ -52,6 +53,15 @@
       "plugin": "@nx/playwright/plugin",
       "options": {
         "targetName": "e2e"
+      }
+    },
+    {
+      "plugin": "@nx/js/typescript",
+      "include": ["libs/shared/tailwind-preset/*"],
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        }
       }
     }
   ],

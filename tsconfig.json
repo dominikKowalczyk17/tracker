@@ -8,6 +8,54 @@
     },
     {
       "path": "./apps/tracker"
+    },
+    {
+      "path": "./apps/sports-app-e2e"
+    },
+    {
+      "path": "./apps/sports-app"
+    },
+    {
+      "path": "./apps/investments-app-e2e"
+    },
+    {
+      "path": "./apps/investments-app"
+    },
+    {
+      "path": "./libs/shared/ui"
+    },
+    {
+      "path": "./libs/shared/data-access"
+    },
+    {
+      "path": "./libs/shared/utils"
+    },
+    {
+      "path": "./libs/shared/tailwind-preset"
+    },
+    {
+      "path": "./libs/sports/sports-feature-workouts"
+    },
+    {
+      "path": "./libs/sports/sports-feature-calendar"
+    },
+    {
+      "path": "./libs/sports/sports-feature-results"
+    },
+    {
+      "path": "./libs/investments/investments-feature-portfolio"
+    },
+    {
+      "path": "./libs/investments/investments-feature-transactions"
+    },
+    {
+      "path": "./libs/investments/investments-feature-analytics"
+    },
+    {
+      "path": "./libs/tracker-app/tracker-feature-dashboard"
+    },
+    {
+      "path": "./libs/tracker-app/tracker-feature-navigation"
     }
   ]
 }
