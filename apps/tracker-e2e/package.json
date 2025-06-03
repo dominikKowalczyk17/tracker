@@ -1,0 +1,10 @@
+{
+  "name": "@tracker/tracker-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@tracker/tracker"
+    ]
+  }
+}
