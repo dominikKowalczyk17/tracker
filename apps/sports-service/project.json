@@ -1,0 +1,32 @@
+{
+  "name": "sports-service",
+  "root": "apps/sports-service",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/workspace:run-commands",
+      "options": {
+        "command": "mvn clean compile"
+      }
+    },
+    "test": {
+      "executor": "@nx/workspace:run-commands",
+      "options": {
+        "command": "mvn test"
+      }
+    },
+    "serve": {
+      "executor": "@nx/workspace:run-commands",
+      "options": {
+        "command": "mvn spring-boot:run"
+      }
+    },
+    "package": {
+      "executor": "@nx/workspace:run-commands",
+      "options": {
+        "command": "mvn clean package"
+      }
+    }
+  },
+  "tags": ["type:backend", "scope:sports-service"]
+}
