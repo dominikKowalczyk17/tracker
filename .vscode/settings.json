@@ -1,4 +1,9 @@
 {
   "nxConsole.generateAiAgentRules": true,
-  "files.eol": "\n"
+  "files.eol": "\n",
+  "explorer.sortOrder": "mixed",
+  "explorer.fileNesting.patterns": {
+    "index.ts": "index.*.ts,index.*.js",
+    "index.js": "index.*.ts,index.*.js"
+  }
 }

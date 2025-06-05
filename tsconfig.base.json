@@ -16,6 +16,11 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "baseUrl": "./",
+    "paths": {
+      "@tracker-app/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@tracker-app/shared/ui/*": ["libs/shared/ui/src/*"]
+    }
   }
 }
