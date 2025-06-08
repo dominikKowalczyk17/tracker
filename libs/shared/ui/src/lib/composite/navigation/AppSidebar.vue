@@ -1,1 +1,8 @@
-// Main sidebar container with header, content, and footer
+<template>
+  <div class="app-sidebar">
+    <SidebarHeader />
+    <SidebarContent />
+    <SidebarFooter />
+  </div>
+</template>
+<script setup lang="ts"></script>

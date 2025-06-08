@@ -17,10 +17,12 @@
     "strict": true,
     "target": "es2022",
     "customConditions": ["development"],
-    "baseUrl": "./",
+    "baseUrl": ".",
     "paths": {
-      "@tracker-app/shared/ui": ["libs/shared/ui/src/index.ts"],
-      "@tracker-app/shared/ui/*": ["libs/shared/ui/src/*"]
+      "@tracker/shared/data-access": ["libs/shared/data-access/src/index.ts"],
+      "@tracker/shared/data-access/*": ["libs/shared/data-access/src/*"],
+      "@tracker/shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@tracker/shared/ui/*": ["libs/shared/ui/src/*"]
     }
   }
 }

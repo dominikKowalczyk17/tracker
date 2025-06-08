@@ -10,4 +10,3 @@ export { default as SidebarGroupContent } from './SidebarGroupContent.vue';
 export { default as SidebarMenu } from './SidebarMenu.vue';
 export { default as SidebarMenuItem } from './SidebarMenuItem.vue';
 export { default as SidebarMenuButton } from './SidebarMenuButton.vue';
-// ...dodaj kolejne eksporty jeśli pojawią się nowe komponenty

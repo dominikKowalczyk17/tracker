@@ -4,22 +4,22 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/tracker-e2e"
+      "path": "./apps/client/tracker-e2e"
     },
     {
-      "path": "./apps/tracker"
+      "path": "./apps/client/tracker"
     },
     {
-      "path": "./apps/sports-app-e2e"
+      "path": "./apps/client/sports-app-e2e"
     },
     {
-      "path": "./apps/sports-app"
+      "path": "./apps/client/sports-app"
     },
     {
-      "path": "./apps/investments-app-e2e"
+      "path": "./apps/client/investments-app-e2e"
     },
     {
-      "path": "./apps/investments-app"
+      "path": "./apps/client/investments-app"
     },
     {
       "path": "./libs/shared/ui"
@@ -43,13 +43,13 @@
       "path": "./libs/sports/sports-feature-results"
     },
     {
+      "path": "./libs/investments/investments-feature-analytics"
+    },
+    {
       "path": "./libs/investments/investments-feature-portfolio"
     },
     {
       "path": "./libs/investments/investments-feature-transactions"
-    },
-    {
-      "path": "./libs/investments/investments-feature-analytics"
     },
     {
       "path": "./libs/tracker-app/tracker-feature-dashboard"
