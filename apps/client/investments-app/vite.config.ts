@@ -23,8 +23,7 @@ export default defineConfig({
       name: 'investmentsApp',
       filename: 'remoteEntry.js',
       exposes: {
-        './App': './src/App.vue',
-        './router': './src/router/index.ts',
+        './RemoteInvestmentsApp': './src/app/RemoteInvestmentsApp.vue',
       },
       shared: {
         vue: {

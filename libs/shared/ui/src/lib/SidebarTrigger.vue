@@ -1,6 +1,9 @@
 // Toggle button for collapsing/expanding sidebar
 <template>
-  <button class="sidebar-trigger" @click="toggleSidebar">
+  <button
+    class="sidebar-trigger"
+    @click="toggleSidebar"
+  >
     <span v-if="isOpen">Collapse</span>
     <span v-else>Expand</span>
   </button>
@@ -11,6 +14,7 @@ const isOpen = ref(true);
 const toggleSidebar = () => {
   isOpen.value = !isOpen.value;
   // Emit an event or handle the sidebar state change as needed
-  console.log(`Sidebar is now ${isOpen.value ? 'open' : 'closed'}`);
+  // Replace with a proper logger or remove for production
+  // logger.info(`Sidebar is now ${isOpen.value ? 'open' : 'closed'}`);
 };
 </script>

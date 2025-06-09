@@ -1,6 +1,6 @@
 import './styles.scss';
 import { createApp } from 'vue';
-import App from './app/DashboardView.vue';
+import DashboardView from './app/DashboardView.vue';
 
-const app = createApp(App);
+const app = createApp(DashboardView);
 app.mount('#root');

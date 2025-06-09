@@ -1,5 +1,8 @@
 <template>
-  <button class="sidebar-menu-button">
+  <button
+    class="sidebar-menu-button"
+    @click="navigate"
+  >
     <slot />
   </button>
 </template>

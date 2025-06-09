@@ -25,7 +25,9 @@ const groups = ref([
 ]);
 const toggleSidebar = () => {
   isOpen.value = !isOpen.value;
-  console.log(`Sidebar is now ${isOpen.value ? 'open' : 'closed'}`);
+  // Replace with a production-appropriate logging solution if needed
+  // Example: use a logging library or remove the statement entirely
+  // logger.info(`Sidebar is now ${isOpen.value ? 'open' : 'closed'}`);
 };
 provide('isOpen', isOpen);
 provide('toggleSidebar', toggleSidebar);
